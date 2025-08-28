@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salam Nafih - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #f9f9f9;
+    }
+    header {
+      background: #0a192f;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { margin: 10px 0; font-size: 1.2em; }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #64ffda;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      display: inline-block;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      background: #fff;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    h2 { color: #0a192f; margin-bottom: 20px; }
+    .skills span {
+      display: inline-block;
+      background: #e6f1ff;
+      color: #0a192f;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 6px;
+      font-size: 0.9em;
+    }
+    .project {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background: #fefefe;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+      background: #0a192f;
+      color: #fff;
+    }
+    footer a {
+      color: #64ffda;
+      text-decoration: none;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 { font-size: 2em; }
+      header p { font-size: 1em; }
+      nav a { margin: 0 5px; font-size: 0.9em; }
+      section { padding: 20px; }
+    }
+
+    @media (max-width: 480px) {
+      header { padding: 20px 10px; }
+      header h1 { font-size: 1.6em; }
+      header p { font-size: 0.9em; }
+      nav { display: flex; flex-wrap: wrap; justify-content: center; }
+      nav a { margin: 5px; font-size: 0.85em; }
+      .skills span { font-size: 0.8em; padding: 6px 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Salam Nafih</h1>
+  <p>AI Engineer & Software Developer | Operations & Tech Innovator</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a 26-year-old professional based in Dubai, with a strong background in Artificial Intelligence, Software Development, and Operations Management. My expertise lies in blending technical innovation with real-world problem solving, from AI projects to facilities management.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Python</span>
+    <span>C++</span>
+    <span>Machine Learning</span>
+    <span>Computer Vision</span>
+    <span>Arduino</span>
+    <span>3D Printing</span>
+    <span>SolidWorks</span>
+    <span>GitHub</span>
+    <span>No-Code (Bubble)</span>
+    <span>Facilities Management</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>AI Video Avatar Script Layer</h3>
+    <p>Developing a base AI content scripting layer for creating realistic video avatars.</p>
+  </div>
+  <div class="project">
+    <h3>Arduino Automation System</h3>
+    <p>Designed and built automation solutions using Arduino for IoT-based applications.</p>
+  </div>
+  <div class="project">
+    <h3>3D Printing Prototypes</h3>
+    <p>Created prototypes using 3D modeling in SolidWorks and executed with 3D printing technology.</p>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <ul>
+    <li>AI & Machine Learning Certification</li>
+    <li>CAD Design Certification</li>
+    <li>Other Relevant Training</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <h3>Operations Assistant Manager – Nazil General Trading</h3>
+  <p>Oversaw operations across 5 residential buildings with 300 apartments, managing technicians, optimizing workflows, and reducing downtime through smart task allocation.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:nafih@example.com">nafih@example.com</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/nafih" target="_blank">linkedin.com/in/nafih</a></p>
+  <p>GitHub: <a href="https://github.com/nafih" target="_blank">github.com/nafih</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Salam Nafih | Built with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
